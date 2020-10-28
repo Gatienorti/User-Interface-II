@@ -93,7 +93,7 @@ body {
 .main img{
     opacity:0.6;
 }
-.main img:hover{
+.main:hover img{
     opacity: 1;
     transition:2s;
 }
