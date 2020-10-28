@@ -75,6 +75,9 @@ body {
     border:1px ;
     border-radius: 15px;
 }
+.hItem a{
+    color:white
+}
 .hItem:hover{
     background-color: lightsteelblue;
     border-color: lightsteelblue;
