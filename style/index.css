@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-color: rgb(188, 197, 202);
+    background-image: url("https://picsum.photos/id/276/1700/2000");
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
     color: white;
 }
@@ -75,7 +75,7 @@ body {
 .hItem:hover{
     background-color: lightsteelblue;
     border-color: lightsteelblue;
-    
+    opacity: 0.;
 }
 .main{
     margin: 15px;
@@ -84,8 +84,14 @@ body {
     text-align:center;
     color: white;
 }
+.main img{
+    opacity:0.8;
+}
+.main img:hover{
+    opacity: 1;
+}
 .main .title{
-    font-size: 3.5rem;
+    font-size: 4rem;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -113,14 +119,20 @@ body {
     margin-bottom: 4%;
     text-align: center;
 }
-.item p{
-    padding-top: 5%;
-    font-weight: 400;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+.item img{
+    opacity: 0.9;
 }
+.item img:hover{
+    opacity: 1;
+}
+.item p{
+    font-size:1.2rem;
+    padding-top: 5%;
+    font-weight: 500;
+    }
 footer{
     padding: 4%;
-    background-color: rgb(124, 140, 156);
+    background-color: rgba(119, 136, 153, 0.623);
 }
 footer div{
     text-align: center;
