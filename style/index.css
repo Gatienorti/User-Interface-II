@@ -51,6 +51,7 @@ body {
     background-image: url("https://picsum.photos/id/276/1700/2000");
     font-family: 'Special Elite', 'Lucida Grande';
     color: rgb(255, 255, 255);
+    background-size: cover;
 }
 .container{
     display:inline-block;
