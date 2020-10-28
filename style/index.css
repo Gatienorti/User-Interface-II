@@ -86,13 +86,18 @@ body {
 .main{
     margin-top: 3.1%;
     margin-bottom: 5%;
-    position: relative;
     text-align:center;
     color: white;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+       
 }
+
 .main img{
     opacity:0.6;
 }
+
 .main:hover img{
     opacity: 1;
     transition:2s;
