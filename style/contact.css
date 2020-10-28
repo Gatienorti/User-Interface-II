@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url("https://picsum.photos/id/273/1700/1600");
+    background-image: url("https://picsum.photos/id/100/1700/1600?grayscale");
     font-family: 'Special Elite', 'Lucida Grande';
     color: rgb(255, 255, 255);
 }
@@ -69,7 +69,7 @@ body {
 .hItem{
     padding: 10px 15px;
     margin-right: 10px;
-    background-color:lightslategray;
+    background-color:rgba(119, 136, 153, 0.623);
     border:1px ;
     border-radius: 15px;
 }
@@ -93,17 +93,12 @@ body p{
 }
 .main{
     margin-top: 3.1%;
-    margin-bottom: 1%;
     position: relative;
     text-align:center;
     color: white;
 }
 .main img{
-    opacity:0.6;
-}
-.main img:hover{
-    opacity: 1;
-    transition:2s;
+    opacity:0.8;
 }
 .main .phoneN a{
     background-color: rgba(46, 139, 86, 0);
@@ -132,43 +127,13 @@ body p{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.main .myProject:hover{
-    color:lightskyblue;
-    border-color:lightskyblue;
-}
-.firstRow {
-    display: flex;
-    /* justify-content: space-evenly; */
-    margin-bottom: 1%;
-    text-align: center;
-}
-.imgS{
-    display:flex;
-}
-.imgS .item{
-    padding-left:3%;
-}
-.firstRow .texte{
-    max-width: 20%;
-    font-size: 1.2rem;
-    margin:auto;
-    text-align: center;
-    padding-left: 5%;
-}
-.item img{
-    opacity: 0.9;
-}
-.item img:hover{
-    opacity: 1;
-}
-
 footer{
+    margin-top:2%;
     padding: 3%;
-    background-color: rgba(119, 136, 153, 0.623);
+    background-color: rgba(119, 136, 153, 0.377);
 }
 footer div{
     display:flex;
-    
 }
 .fa {
   padding: 1%;
