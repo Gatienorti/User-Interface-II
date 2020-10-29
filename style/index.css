@@ -198,6 +198,7 @@ footer div{
     .headerContainer{
         display: flex;
         justify-content: center;
+        margin:auto;
         margin-top: 2%;
     }
     .main .title{
