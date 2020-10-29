@@ -188,6 +188,33 @@ footer div{
     background: #007bb5;
     color: white;
 }
+@media(max-width:1245px){
+    .main .title{
+        font-size: 3.5rem;
+        width: 85%;
+        top:40%;
+    }
+}
+@media(max-width:1020px){
+    .container{
+        display: block;
+        text-align: center;  
+    }
+    h1{
+        color: rgb(124, 128, 131) ;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-top: 2%;
+    }
+    .main .title{
+        font-size: 2.5rem;
+        width: 85%;
+        top:40%;
+    }
+}
 @media(max-width:800px){
     
     .container{
@@ -195,7 +222,7 @@ footer div{
         text-align: center;  
     }
     h1{
-        color: lightslategrey ;
+        color: rgb(124, 128, 131) ;
     }
     .headerContainer{
         display: flex;
@@ -230,8 +257,7 @@ footer div{
 @media(max-width:500px){
     h1{
         font-size: 2rem;
-        margin-top: 5%;
-        
+        margin-top: 5%;   
     }
     .hItem{
         width: 55px;
@@ -247,7 +273,7 @@ footer div{
         opacity: 1;
     }
     .main .title{
-        font-size: 2rem;
+        font-size: 1.75rem;
         width: 85%;
         top:35%;
     }
