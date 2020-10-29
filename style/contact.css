@@ -69,10 +69,10 @@ body {
 }
 .hItem{
     text-align: center;
-    width: 4.1%;
+    width: 65px;
     padding: 10px 15px;
     margin-right: 10px;
-    background-color:rgba(119, 136, 153, 0.623);
+    background-color:rgba(119, 136, 153, 0.479);
     border:1px ;
     border-radius: 15px;
 }
@@ -113,12 +113,12 @@ body p{
     background-color: rgba(46, 139, 86, 0);
     color:white;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     padding: 10px;
     border: 2px solid white;
     border-radius: 15px;
     position: absolute;
-    top: 37%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -127,12 +127,12 @@ body p{
     background-color: rgba(46, 139, 86, 0);
     color:white;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     padding: 10px;
     border: 2px solid white;
     border-radius: 15px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -175,7 +175,7 @@ footer div{
         text-align: center;  
     }
     .hItem{
-        width: 9%;
+        width: 65px;
     }
     .main .phoneN a{
         font-size: 1.5rem;
@@ -198,10 +198,11 @@ footer div{
         margin-top: 10%; 
     }
     .hItem{
-        width: 10%;
+        width: 40px;
         font-weight: 550;
         font-size: 0.6rem;
         margin:6% 2% 0% 2%;  
+        
     }
     .main .phoneN a{
         font-size: 1.15rem;
