@@ -98,9 +98,15 @@ body p{
     position: relative;
     text-align:center;
     color: white;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 .main img{
     opacity:0.6;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 .main img:hover{
     opacity: 1;
@@ -135,7 +141,7 @@ body p{
 .imgS .item{
     padding-left:3%;
 }
-.firstRow .texte{
+.texte{
     max-width: 20%;
     font-size: 1.2rem;
     margin:auto;
@@ -144,7 +150,11 @@ body p{
 }
 .item img{
     opacity: 0.9;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
+
 .item img:hover{
     opacity: 1;
 }
@@ -166,7 +176,7 @@ footer div{
     border: 2px solid white;
     border-radius: 15px;
     position: absolute;
-    right:50%;
+    right:46.00003%;
     
 }
 .footerContact:hover{
@@ -175,7 +185,6 @@ footer div{
 }
 .fa {
   padding: 15px;
-  font-size: 30px;
   text-align: left;
   text-decoration: none;
   border-radius: 50%;
@@ -184,3 +193,97 @@ footer div{
     background: #007bb5;
     color: white;
   }
+  @media(max-width:800px){
+    
+    .container{
+        display: block;
+        text-align: center;  
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .main .title{
+        font-size: 3rem;
+        width: 75%;
+        top:35%;
+    }
+    .main .myProject{
+        top:50%;
+    }
+    .item{
+        width: 30%;
+    }
+    .item p{
+        font-size: 1rem;
+    }
+    .firstRow{
+        display: block;
+    }
+    .imgS{
+        justify-content: space-around;
+        padding-right:3%;
+    }
+    .texte{
+        max-width:70% ;
+        padding-right:5%;
+        margin: 5% auto;
+    }
+    .footerContact{
+        width: 12%;
+        right: 44%;
+    }
+}
+@media(max-width:500px){
+    .container h1{
+        font-size: 2rem;
+        margin-top: 10%; 
+    }
+    .hItem{
+        font-weight: 550;
+        font-size: 0.6rem;
+        padding: 2%;
+        margin-bottom: 2%;
+    }
+    .container h2{
+        font-size: 1.75rem;
+        margin: 4% auto;
+    }
+    .container p{
+        font-size: 0.8rem;
+        font-weight: 400;
+        width: 85%;
+    }
+    .main {
+        margin-bottom: 5%;
+    }
+    .main img {
+        opacity: 1;
+    }
+    .main .title{
+        font-size: 2rem;
+        width: 85%;
+        top:35%;
+    }
+    .main .myProject{
+        padding: 1%;
+        font-size: 0.7rem;
+        top:50%;
+    }
+    .texte{
+        width: 85%;
+        font-size: 00.8rem;
+    }
+    
+    footer .fa{
+        font-size:0.6rem ;
+        padding: 10px;
+    }
+    .footerContact{
+        font-size: 0.6rem;
+        width: 19%;
+        right:40.5%;
+    }
+    
+}
