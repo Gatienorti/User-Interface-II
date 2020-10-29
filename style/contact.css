@@ -68,6 +68,8 @@ body {
     margin-top:1.5%;
 }
 .hItem{
+    text-align: center;
+    width: 4.1%;
     padding: 10px 15px;
     margin-right: 10px;
     background-color:rgba(119, 136, 153, 0.623);
@@ -172,6 +174,9 @@ footer div{
         display: block;
         text-align: center;  
     }
+    .hItem{
+        width: 9%;
+    }
     .main .phoneN a{
         font-size: 1.5rem;
         top:32%;
@@ -193,9 +198,9 @@ footer div{
         margin-top: 10%; 
     }
     .hItem{
+        width: 10%;
         font-weight: 550;
         font-size: 0.6rem;
-        padding: 2%;
         margin:6% 2% 0% 2%;  
     }
     .main .phoneN a{

@@ -70,9 +70,10 @@ body {
 .hItem{
     padding: 10px 15px;
     margin-right: 10px;
-    background-color:lightslategray;
+    background-color:rgba(119, 136, 153, 0.425);
     border:1px ;
     border-radius: 15px;
+    width: 65px;
 }
 .hItem:hover{
     background-color: lightsteelblue;
@@ -241,6 +242,7 @@ footer div{
         margin-top: 10%; 
     }
     .hItem{
+        width: 45px;
         font-weight: 550;
         font-size: 0.6rem;
         padding: 2%;
