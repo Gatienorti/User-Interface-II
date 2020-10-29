@@ -193,7 +193,7 @@ footer div{
     background: #007bb5;
     color: white;
   }
-  @media(max-width:800px){
+@media(max-width:800px){
     
     .container{
         display: block;
