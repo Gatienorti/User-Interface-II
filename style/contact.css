@@ -196,21 +196,21 @@ footer div{
         font-weight: 550;
         font-size: 0.6rem;
         padding: 2%;
-        margin:3% 2%;  
+        margin:6% 2% 0% 2%;  
     }
     .main .phoneN a{
         font-size: 1.15rem;
-        top:12%;
+        top:47%;
     }
     .main .myProject a{
         font-size: 1rem;
-        top:25%;
+        top:60%;
     }
     img{
-        margin-bottom: 60%;
+        margin-bottom: 75%;
     }
     .fa-facebook{
-        padding: 1% 1.40%;
+        padding: 1% 1.8%;
     }
     .fa-google{
         padding: 1% 1.1%;
