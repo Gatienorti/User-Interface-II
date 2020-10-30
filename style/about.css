@@ -48,17 +48,19 @@ table {
 }
 
 body {
+    color: #4f4f4f;
     font-family: 'Special Elite', 'Lucida Grande';
     background-size: cover;
 }
 .container{
     background-image: url("../Picture/about/camargue.jpg");
     text-align: center;
-    height:100vh;
+    height:750px;
     margin: 5%;
-    background-size:  cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     position:relative;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);   
 }
 .container h1{    
     position: absolute;
@@ -66,7 +68,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4.5rem;
-    max-width: fit-content;
+    width: 75%;
     
 }
 .container .headerContainer{
@@ -94,6 +96,15 @@ body {
 .hItem a{
     color:white;
 }
+.about{
+    text-align: center;
+    width: 65%;
+    margin:0 auto 4% auto;
+}
+.about h2{
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
 section{
     margin: 0 5%;
     display: flex;   
@@ -106,6 +117,12 @@ section{
 .story div{
     width:50%; 
 }
+.story h3{
+    text-align: center;
+}
+.story p{
+    text-align: center;
+}
 .images{
     height: 550px;
     background-size: cover;
@@ -113,19 +130,20 @@ section{
     background-repeat: no-repeat;
 }
 .firstP{
-    background-image: url("../Picture/about/camargue.jpg");
+    background-image: url("../Picture/about/umbrela.jpg");
 }
 .secondP{
-    background-image: url("../Picture/about/camargue.jpg");
+    background-image: url("../Picture/about/kohlipe.jpg");
 }
 .thirdP{
-    background-image: url("../Picture/about/camargue.jpg");
+    background-image: url("../Picture/about/nyc.jpg");
 }
 
 
 
 footer{
-    padding: 3%;
+    margin-top: 3%;
+    padding: 2%;
     background-color: rgba(119, 136, 153, 0.623);
 }
 footer div{
@@ -158,9 +176,20 @@ footer div{
     background: #007bb5;
     color: white;
   }
+@media(max-width:1200px){
+    .container h1{
+        font-size: 4.25rem ;
+    }
+}
+@media(max-width:1070px){
+    .container h1{
+        width:441px;
+    }
+}
 @media(max-width:800px){
     
     .container{
+        height: 550px;
         display: block;
         text-align: center;  
     }
@@ -169,41 +198,32 @@ footer div{
         justify-content: center;
         margin-top: 2%;
     }
-    .main .title{
-        font-size: 3rem;
-        width: 75%;
-        top:35%;
+    .hItem{
+        width: 45px;
+        font-weight: 550;
+        font-size: 0.6rem;
+        padding: 2%;
+        margin-bottom: 2%;
     }
-    .main .myProject{
-        top:50%;
-    }
-    .item{
-        width: 30%;
-    }
-    .item p{
-        font-size: 1rem;
-    }
-    .firstRow{
-        display: block;
-    }
-    .imgS{
-        justify-content: space-around;
-        padding-right:3%;
-    }
-    .texte{
-        max-width:70% ;
-        padding-right:5%;
-        margin: 5% auto;
+    
+    .text div{
+        width:85% ;
+           
     }
     .footerContact{
         width: 12%;
         right: 44%;
     }
 }
-@media(max-width:500px){
+@media(max-width:600px){
+    .container{
+        height: 400px;
+    }
     .container h1{
         font-size: 2rem;
+        width: 210px;
         margin-top: 10%; 
+        top:32.5%
     }
     .hItem{
         width: 45px;
@@ -216,10 +236,13 @@ footer div{
         font-size: 1.75rem;
         margin: 4% auto;
     }
-    .container p{
-        font-size: 0.8rem;
-        font-weight: 400;
-        width: 85%;
+    .story{
+        display:block;
+    }
+    .story div{
+        width: auto;
+        align-items: center;
+        margin-bottom: 3%;
     }
     .main {
         margin-bottom: 5%;
