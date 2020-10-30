@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.2;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url("https://picsum.photos/id/100/1700/1600?grayscale");
+    background-image: url("../Picture/Contact/beach.jpg");
     font-family: 'Special Elite', 'Lucida Grande';
     color: rgb(255, 255, 255);
     background-size: cover;
@@ -68,9 +68,11 @@ body {
     margin-top:1.5%;
 }
 .hItem{
+    text-align: center;
+    width: 65px;
     padding: 10px 15px;
     margin-right: 10px;
-    background-color:rgba(119, 136, 153, 0.623);
+    background-color:rgba(119, 136, 153, 0.479);
     border:1px ;
     border-radius: 15px;
 }
@@ -97,20 +99,26 @@ body p{
     position: relative;
     text-align:center;
     color: white;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 .main img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
     opacity:0.8;
 }
 .main .phoneN a{
     background-color: rgba(46, 139, 86, 0);
     color:white;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 2.5rem;
     padding: 10px;
     border: 2px solid white;
     border-radius: 15px;
     position: absolute;
-    top: 37%;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -119,12 +127,12 @@ body p{
     background-color: rgba(46, 139, 86, 0);
     color:white;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     padding: 10px;
     border: 2px solid white;
     border-radius: 15px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -160,3 +168,58 @@ footer div{
     background: #dd4b39;
     color: white;
   }
+@media(max-width:800px){
+    
+    .container{
+        display: block;
+        text-align: center;  
+    }
+    .hItem{
+        width: 65px;
+    }
+    .main .phoneN a{
+        font-size: 1.5rem;
+        top:32%;
+    }
+    .main .myProject a{
+        font-size: 1.2rem;
+        top:50%;
+    }
+    .fa-facebook{
+        padding: 1% 1.40%;
+    }
+    .fa-google{
+        padding: 1% 1.1%;
+    }
+}
+@media(max-width:500px){
+    .container h1{
+        font-size: 2rem;
+        margin-top: 10%; 
+    }
+    .hItem{
+        width: 40px;
+        font-weight: 550;
+        font-size: 0.6rem;
+        margin:6% 2% 0% 2%;  
+        
+    }
+    .main .phoneN a{
+        font-size: 1.15rem;
+        top:47%;
+    }
+    .main .myProject a{
+        font-size: 1rem;
+        top:60%;
+    }
+    img{
+        margin-bottom: 75%;
+    }
+    .fa-facebook{
+        padding: 1% 1.8%;
+    }
+    .fa-google{
+        padding: 1% 1.1%;
+    }
+}
+    
